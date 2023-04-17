@@ -18,13 +18,21 @@
 
 .hero .cabecera {
     display: flex;
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-family: 'Urbanist', sans-serif;
     width: 100%;
     height: 90px;
     align-items: center;
     position: fixed;
     
+}
+
+.cabecera{
+    transition: top 0.3s;
+}
+
+.hero.cabecera.hidden{
+    top: -100%;
 }
 
 .hero .cabecera .logo {
